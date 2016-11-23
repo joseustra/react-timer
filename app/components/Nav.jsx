@@ -13,7 +13,7 @@ var Nav = (props) => {
       </div>
       <div className="top-bar-right">
           <ul className="menu">
-            <li className="menu-text">Created by me</li>
+            <li className="menu-text">Created by <a href="https://github.com/ustrajunior" target="_blank">me</a></li>
           </ul>
       </div>
     </div>
