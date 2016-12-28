@@ -11,9 +11,8 @@ var Timer = React.createClass({
   },
   startTimer: function() {
     this.timer = setInterval(() => {
-      var newCount = this.state.count + 1;
       this.setState({
-        count: newCount >= 0 ? newCount : 0
+        count: this.state.count + 1
       });
     }, 1000);
   },
